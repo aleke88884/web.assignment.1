@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Section */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-heading {
+    margin: 20px 0 10px;
+    color: #2c3e50;
+}
+
+/* Paragraphs */
+.paragraph-text {
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* List Styling */
+ol, ul {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+ol li, ul li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Button */
+.button-style {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button-style:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+.table-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-schedule th, .table-schedule td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-schedule th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Image Styling */
+.image-profile {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Form Styling */
+#contact-form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #005fa3;
+}

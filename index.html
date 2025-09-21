@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +8,10 @@
 </head>
 
 <body>
-    < <h1>alekeOS</h1>
+    < <h1 id="main-header">alekeOS</h1>
         <h2>Course: Second in Astana IT University</h2>
         <h3>About Me</h3>
-        <p>
+        <p class="paragraph-text">
             I am a Flutter developer working on Android and iOS apps.
             I am also preparing for interviews at Big Tech companies and
             improving my programming skills every day.
@@ -32,18 +33,18 @@
         </ul>
 
         <h3>My Photo</h3>
-        <img src="logo.png" alt="Example Photo" width="200">
+        <img class="image-profile" src="logo.png" alt="Example Photo" width="200">
         <p>
             Check out my favorite websites:
             <a href="https://github.com" target="_blank">GitHub</a> and
             <a href="https://leetcode.com" target="_blank">LeetCode</a>.
         </p>
 
-        <button>Click Me</button>
+        <button class="button-style">Click Me</button>
 
 
         <h3>Weekly Class Schedule</h3>
-        <table border="1" cellpadding="5">
+        <table class="table-schedule" border="1" cellpadding="5">
             <tr>
                 <th>Subject</th>
                 <th>Day</th>
@@ -74,17 +75,17 @@
         <h2>&#128507;</h2>
         <h2>&#128513;</h2>
         <h3>Contact Me</h3>
-        <form>
+        <form id="contact-form" action="#" method="post">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+            <input class="form-input" type="text" id="name" name="name"><br><br>
 
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+            <input class="form-input" type="email" id="email" name="email"><br><br>
 
             <label for="color">Favorite Color:</label><br>
-            <input type="color" id="color" name="color"><br><br>
+            <input class="form-input" type="color" id="color" name="color"><br><br>
 
-            <input type="submit" value="Submit">
+            <input class="submit-btn" type="submit" value="Submit">
         </form>
 </body>
 
